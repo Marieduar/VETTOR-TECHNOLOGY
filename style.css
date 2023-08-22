@@ -16,7 +16,33 @@ article{
     height: 800px;
     display: block;
     float: left;
-    background-color: green;
+    background-color: #121212;
+}
+
+#divarticle{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+#divarticle h2{
+    font-size: 50px;
+}
+
+#divarticle p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#imgarticle{
+    width: 200px;
+    height: auto;
+    margin-left: 0px;
+}
+
+#divarticle h2:hover{
+    color: orange;
 }
 
 aside{
@@ -24,7 +50,12 @@ aside{
     height: 800px;
     display: block;
     float: left;
-    background-color: yellow;
+    background-color: black;
+}
+
+#divaside{
+    width: 100%;
+    height: 100%;
 }
 
 footer{
